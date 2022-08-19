@@ -14,3 +14,4 @@ date: {
 }
 })
 module.exports = mongoose.model('TodoTask',todoTaskSchema,'tasks');
+//model(NOT DB //this is just name of the model we can refernce elsewhere, schema, collections )  (in monggose=> cluster, db,collections,dcouments)
